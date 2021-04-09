@@ -16,7 +16,9 @@ Zadanie polega na dodanie zawartości pliku JavaScript. Następnie dodaniu go w 
 Wykorzystując język Javascript należy wykonać manipulacje na obiekcie DOM odnosząc się do odpowiednich 
 elementów ze strony i wykonując następującą akcję:
 (cały kod Javascript ma być zawarty w pliku script.js):
-- po kliknięciu w przycisk kolor diva powinien zmienić się z niebieskiego na czerwony.
+- po kliknięciu w przycisk kolor diva powinien zmienić się z zielonego na zółty.
+
+W tym zadaniu należy dodać również kolejny kolejny przycisk oraz plik .js, który będzie obsługiwał zmianę tła strony. 
 
 ## Zadanie 3
 
@@ -35,29 +37,31 @@ Ten pusty znacznik będzie odpowiedzialny za wyświetlenie nawigacji z pliku nav
 
 ## Zadanie 4
 
-Do projektu należy dodać kolejną podstronę (`blog.html`) oraz bibliotekę bootstrap (tylko na tej podstronie).
+Do projektu należy dodać kolejną podstronę (`formularz.html`) oraz bibliotekę bootstrap (tylko na tej podstronie).
 Z pomocą dodanej biblioteki (jej klas) należy dodać pola:
 - tekstowe Email: `<input type="email">`,
 - tekstowe Temat: `<input type="text">`,
 - textarea Wiadomość: `<textarea></textarea>`,
-- przycisk "Wyślij" (class: success),
+- przycisk "Wyślij" (class: primary),
 - przycisk "Wyczyść" (class: danger).
 
-Po wciśnięciu przycisku "Zapisz" - pod formularzem powinien pojawić się wpisany tekst odpowiednio sformatowany.
+Po wciśnięciu przycisku "Wyślij" - pod formularzem powinien pojawić się wpisany tekst odpowiednio sformatowany.
 Np. 
 
 
 | Wiadomość:  |                                      |
 | ----------- | ------------------------------------ |
-| Email:      | **Wpisany w formularzy email**       |
-| Temat:      | **Wpisany w formularzy temat**       |
-| Wiadomość   | **Wpisana w formularzy wiadomość**   |
+| Email:      | **Wpisany w formularzu email**       |
+| Temat:      | **Wpisany w formularzu temat**       |
+| Wiadomość   | **Wpisana w formularzu wiadomość**   |
 |Została wysłana!|                                   |
 
  
 Po wybraniu przycisku Wyczyść, fomrmularz zostaje wyczyszczony, a informacja wysłanej wiadomości znika.
 
-Technika rozwiązania dowolna!.
+Pod formularzem należy wstawić licznik, który będzie wyświetlał liczbę, ile razy został kliknęty przycisk wyślij.
+
+Technika rozwiązania dowolna!
 
 ## Zadanie 5
 
